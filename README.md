@@ -1,7 +1,9 @@
 # FizzBuzz
 
+Run unit tests: \
+dotnet test FizzBuzzTests --verbosity normal
+
 Run application: \
 dotnet run --project FizzBuzzApp \
 \
-Run unit tests: \
-dotnet run --project FizzBuzzTests
+
