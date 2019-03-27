@@ -8,8 +8,16 @@ namespace FizzBuzzApp
         {
             for (int i = 1; i <= 100; i++)
             {
-                Console.WriteLine(FizzBuzz.GetFizzBuzz(i));
+                Console.WriteLine(FizzBuzz.GetFizzBuzz(i, true));
             }
+            Console.WriteLine();
+            Console.WriteLine();
+            for (int j = 100; j >= 1; j--)
+            {
+                Console.WriteLine(FizzBuzz.GetFizzBuzz(j, false));
+            }
+
+            Console.ReadLine();
         }
 
         
